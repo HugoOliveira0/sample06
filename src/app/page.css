@@ -11,16 +11,29 @@ background-color: #f5f5f5;
 .titulo {
 font-size: 2rem;
 font-weight: bold;
-margin-bottom: Irem;
+margin-bottom: 1rem;
+color: black;
 }
 
 .botao {
-padding: 0.5rem Irem;
-font-size: Irem;
+padding: 0.5rem 1rem;
+font-size: 1rem;
 font-weight: bold;
 color: #fff;
 background-color: #007bff;
 border: none;
 border-radius: 0.25rem;
 cursor: pointer;
+transition: background-color 0.2s ease;
+}
+
+.botao:hover {
+transition: background-color 0.2s ease;
+background-color: #0056b3;
+}
+
+.botao:active {
+transition: transform 0.1s ease;
+transform: scale(0.95);
+background-color: #004085;
 }
